@@ -1,0 +1,63 @@
+.contact-wrapper {
+  background-color: var(--card-bg);
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--bg-color); /* Darker inner background */
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 1rem;
+  box-sizing: border-box; /* Prevents padding from breaking layout */
+}
+
+.form-input:focus, .form-textarea:focus {
+  outline: 2px solid var(--accent);
+  border-color: transparent;
+}
+
+.submit-btn {
+  background-color: var(--accent);
+  color: #0f172a; /* Dark text on bright button */
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  width: 100%;
+  transition: background 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: var(--accent-hover);
+}
+
+.submit-btn:disabled {
+  background-color: #334155;
+  cursor: not-allowed;
+  color: #94a3b8;
+}
+
+.status-msg {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 500;
+}
